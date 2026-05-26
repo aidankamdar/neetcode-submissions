@@ -5,9 +5,9 @@ class Solution {
             int num = arr[i];
             arr[i] = max;
             max = Math.max(num,max);
-
         }
-        return arr;
+        return arr; 
+
         
     }
 }
